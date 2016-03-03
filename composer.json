@@ -1,16 +1,25 @@
 {
-    "name": "restoore/laravel-systempay",
-    "description": "Easily create a systempay payment form.",
-    "type": "library",
-    "require": {
-        "laravelcollective/html": "~5.0"
-    },
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Florian Congre",
-            "email": "florian.congre@gmail.com"
-        }
-    ],
-    "minimum-stability": "dev"
+  "name": "restoore/laravel-systempay",
+  "description": "Easily create a systempay payment form.",
+  "keywords": [
+    "laravel",
+    "systempay"
+  ],
+  "type": "library",
+  "require": {
+    "laravelcollective/html": "~5.0"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Florian Congre",
+      "email": "florian.congre@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Restoore\\Systempay\\": "src/"
+    }
+  },
+  "minimum-stability": "dev"
 }

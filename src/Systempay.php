@@ -24,7 +24,7 @@ class Systempay
 
     /**
      * Systempay constructor
-     * @param       String $site_id unique shop identifier
+     * @param       String $site_id unique shop id
      */
     public function __construct($site_id)
     {
