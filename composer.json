@@ -5,6 +5,10 @@
     "laravel",
     "systempay"
   ],
+  "require": {
+    "php": ">=5.4",
+    "laravel/framework": "~5.*",
+  },
   "type": "library",
   "license": "MIT",
   "authors": [
