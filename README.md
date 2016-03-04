@@ -9,14 +9,10 @@ First you need to add the component to your composer.json
 composer require restoore/laravel-systempay
 ```
 Update your packages with *composer update* or install with *composer install*.
-<<<<<<< HEAD
 Execute *php artisan vendor:publish --provider="Restoore\Systempay\SystempayServiceProvider"* command to copy systempay.php configuration file in your environment
 
 After updating composer, add the ServiceProvider to the providers array in config/app.php
-=======
 
-After updating composer, add the ServiceProvider to the providers array and the Facade to the alias array in config/app.php
->>>>>>> 2bf315487816fef6c0772ba7dcf1ee561b7f807c
 #### For Laravel >= 5.1
 ```php
   'providers' => [
