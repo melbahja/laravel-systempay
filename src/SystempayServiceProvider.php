@@ -9,7 +9,6 @@ class SystempayServiceProvider extends ServiceProvider
 
     protected $defer = true;
 
-
     /**
      * Bootstrap the application services.
      *
@@ -17,6 +16,7 @@ class SystempayServiceProvider extends ServiceProvider
      */
     public function boot()
     {
+
         //Publishes package config file to applications config folder
         $this->publishes([__DIR__ . '/config/systempay.php' => config_path('systempay.php')]);
     }

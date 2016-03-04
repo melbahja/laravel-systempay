@@ -9,9 +9,14 @@ First you need to add the component to your composer.json
 composer require restoore/laravel-systempay
 ```
 Update your packages with *composer update* or install with *composer install*.
+<<<<<<< HEAD
 Execute *php artisan vendor:publish --provider="Restoore\Systempay\SystempayServiceProvider"* command to copy systempay.php configuration file in your environment
 
 After updating composer, add the ServiceProvider to the providers array in config/app.php
+=======
+
+After updating composer, add the ServiceProvider to the providers array and the Facade to the alias array in config/app.php
+>>>>>>> 2bf315487816fef6c0772ba7dcf1ee561b7f807c
 #### For Laravel >= 5.1
 ```php
   'providers' => [
@@ -19,6 +24,7 @@ After updating composer, add the ServiceProvider to the providers array in confi
       Restoore\Systempay\SystempayServiceProvider::class,
   ]
 ```
+
 #### For Laravel 5.0
 ```php
   'providers' => [
@@ -26,6 +32,7 @@ After updating composer, add the ServiceProvider to the providers array in confi
       Restoore\Systempay\SystempayServiceProvider,
   ]
 ```
+
 ## Configuration
 By default, the package comes with an example configuration file : config/systempay.php
 ```php
@@ -72,6 +79,7 @@ Now we are finally ready to use the package! Here is a little example of code to
     //create html systempay call form
     $payment_form = $systempay->get_form('<button class="btn btn-lg btn-primary btn-payment" type="submit">Valider et payer</button>');
 ```
+
 #### What you have to know about this code
 1. You can get and set all Systempay parameters using accessor
 2. All setters are chainables functions
