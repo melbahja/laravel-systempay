@@ -1,5 +1,10 @@
 # Create Systempay payment form for Laravel 5.x
 
+![Package](https://img.shields.io/badge/Package-restoore%2Flaravel-systempay.svg)
+![Laravel](https://img.shields.io/badge/For-Laravel%20%E2%89%A5%205.4-yellow.svg)
+![Release](https://img.shields.io/github/release/restoore/laravel-systempay.svg)
+![Packagist](https://img.shields.io/packagist/v/restoore/laravel-systempay.svg)
+![MIT License](https://img.shields.io/github/license/restoore/laravel-systempay.svg)
 ## What is the point ?
 The library provides an easy and fast systempay form creation. She helps to instanciate all required parameters and create the form to access to payment interface. To know required parameters, go to https://systempay.cyberpluspaiement.com/html/documentation.html
 
