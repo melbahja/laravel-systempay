@@ -161,7 +161,7 @@ class Systempay
     {
         $this->_params = array_merge($this->_params, [
             "vads_product_label{$this->_nb_products}" => $product["label"],
-            "vads_product_amount{$this->_nb_products}" => (int)$product["amount"] * 100,
+            "vads_product_amount{$this->_nb_products}" => $product["amount"] * 100,
             "vads_product_type{$this->_nb_products}" => $product["type"],
             "vads_product_ref{$this->_nb_products}" => $product["ref"],
             "vads_product_qty{$this->_nb_products}" => $product["qty"]
