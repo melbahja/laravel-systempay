@@ -22,5 +22,12 @@
       "Restoore\\Systempay\\": "src/"
     }
   },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Restoore\\Systempay\\SystempayServiceProvider"
+      ]
+    }
+  },
   "minimum-stability": "dev"
 }
