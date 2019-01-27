@@ -147,6 +147,7 @@ class Systempay
         $html_form = '<form method="post" action="' . $this->_url . '" accept-charset="UTF-8">';
         foreach ($this->_params as $key => $value)
             $html_form .= '<input type="hidden" name="' . $key . '" value="' . $value . '">';
+        $html_form .= '<input type="hidden" name="var_trans_date" value="'.gmdate('YmdHis').'">';
         $html_form .= $button;
         $html_form .= "</form>";
         return $html_form;
