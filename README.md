@@ -34,6 +34,9 @@ After updating composer, add the ServiceProvider to the providers array in confi
   ]
 ```
 
+#### For Laravel >= 5.5
+It's automatic, thanks to xmoroccan for this update
+
 ## Configuration
 By default, the package comes with an example configuration file : config/systempay.php
 ```php
