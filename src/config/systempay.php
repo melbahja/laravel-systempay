@@ -5,7 +5,7 @@ return
     /**
      * Your website id
      */
-    'id' => 'YOURE_SITE_ID',
+    'id' => 'YOUR_SITE_ID',
 
     /**
      * Your key
